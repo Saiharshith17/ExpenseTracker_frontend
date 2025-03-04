@@ -13,7 +13,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault(); // Prevents page reload
 
-    const response = await fetch(`http://127.0.0.1:5000/auth/v1/login`, {
+    const response = await fetch(`http://localhost:9898/auth/v1/login`, {
       method: "POST",
       headers: {
         Accept: "application/json",
