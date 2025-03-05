@@ -1,0 +1,36 @@
+/* Home.css */
+.safe-area {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  .content-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .graph-container {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .insights-container {
+    flex: 1;
+    margin-left: 10px;
+  }
+  
+  .spends-container {
+    margin-top: 20px;
+  }
+  
+  .text {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+  }
+  

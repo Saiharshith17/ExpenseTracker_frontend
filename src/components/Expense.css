@@ -1,0 +1,58 @@
+.expense-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 8px 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left-content {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .image-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expense-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+  }
+  
+  .merchant-info {
+    flex: 1;
+    margin-left: 12px;
+  }
+  
+  .merchant-text {
+    color: #212529;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  
+  .date-text {
+    color: #6c757d;
+    font-size: 14px;
+  }
+  
+  .right-content {
+    text-align: right;
+  }
+  
+  .amount-text {
+    color: #007bff;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

@@ -14,7 +14,7 @@ const SignUp = () => {
   const navigateToLoginScreen = async () => {
     try {
       //const SERVER_BASE_URL = "http://Expens-KongA-ChasZNdaOM4K-1208155051.ap-south-1.elb.amazonaws.com";
-      const response = await fetch(`http://127.0.0.1:5000/auth/v1/signup`, {
+      const response = await fetch(`http://127.0.0.1:9898/auth/v1/signup`, {
         method: "POST",
         headers: {
           Accept: "application/json",

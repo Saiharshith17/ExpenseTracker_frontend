@@ -1,0 +1,54 @@
+:root {
+    --primary-color: #007AFF;
+    --secondary-color: #5856D6;
+    --background-primary: #000000;
+    --background-secondary: #1C1C1E;
+    --surface-primary: rgba(28, 28, 30, 0.9);
+    --text-primary: #FFFFFF;
+    --text-secondary: #8E8E93;
+    --text-accent: #007AFF;
+    --status-success: #34C759;
+    --status-warning: #FF9500;
+    --status-error: #FF3B30;
+    --shadow-light: rgba(0, 0, 0, 0.1);
+    --shadow-medium: rgba(0, 0, 0, 0.15);
+    --font-sans: 'System', sans-serif;
+    --font-mono: 'Menlo', monospace;
+    --font-size-base: 16px;
+    --font-size-lg: 18px;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --line-height-normal: 1.5;
+    --spacing-md: 16px;
+    --border-radius-md: 10px;
+  }
+  
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--background-primary);
+    color: var(--text-primary);
+  }
+  
+  button {
+    background-color: var(--primary-color);
+    color: var(--text-primary);
+    border-radius: var(--border-radius-md);
+    padding: var(--spacing-md);
+  }
+  
+  .card {
+    background-color: var(--surface-primary);
+    box-shadow: 0 2px 8px var(--shadow-light);
+    border-radius: var(--border-radius-md);
+  }
+  
+  h1, h2, h3 {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-medium);
+  }
+  
+  a {
+    color: var(--text-accent);
+  }
+  
+  

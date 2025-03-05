@@ -1,0 +1,18 @@
+.heading-container {
+    margin: 20px 0;
+  }
+  
+  .heading-box {
+    background-color: #f8f9fa; /* Equivalent to theme.colors.surface */
+    border-radius: 12px; /* Equivalent to theme.borderRadius.lg */
+    padding: 16px; /* Equivalent to theme.spacing.md */
+    text-align: center;
+  }
+  
+  .heading-text {
+    color: #212529; /* Equivalent to theme.colors.text.primary */
+    font-size: 24px; /* Equivalent to theme.typography.fontSize['2xl'] */
+    font-family: "Arial", sans-serif; /* Equivalent to theme.typography.fontFamily.sans */
+    font-weight: bold; /* Equivalent to theme.typography.fontWeight.bold */
+  }
+  
