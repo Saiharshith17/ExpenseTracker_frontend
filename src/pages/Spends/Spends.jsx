@@ -8,6 +8,8 @@ const Spends = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
 
+
+
   
   useEffect(() => {
     fetchExpenses();
