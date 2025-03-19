@@ -10,6 +10,8 @@ const BarChart = ({ data, labels }) => {
             chartInstance.current.destroy();
         }
 
+
+        
         const ctx = chartRef.current.getContext("2d");
         chartInstance.current = new Chart(ctx, {
             type: "bar",
