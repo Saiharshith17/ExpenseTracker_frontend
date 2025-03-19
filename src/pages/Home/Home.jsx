@@ -8,9 +8,11 @@ import Nav from '../../components/navbar';
 
 const Home = () => {
   return (
+    <>
+    
     <div className="safe-area">
       <div className="container">
-        <Nav />
+        
         <div className="content-container">
           <div className="graph-container">
             <ExpenseTrackerGraph />
@@ -24,6 +26,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

@@ -1,9 +1,12 @@
+
+
 .signup-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: #f4f4f4;
+    background: url("bg.png") #030728 no-repeat center;
   }
   
   .signup-box {

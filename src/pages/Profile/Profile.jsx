@@ -50,28 +50,28 @@ const Profile = () => {
       <div className="content">
         <div className="section">
           <h3 className="section-title">Personal Information</h3>
-          <div className="card">
+          <div className="card-item">
             <ProfileItem
               icon={<User size={20} color="#007BFF" />}
               label="Name"
-              value={`${mockUser.firstName} ${mockUser.lastName}`}
+              value={` ${mockUser.firstName} ${mockUser.lastName}`}
             />
             <ProfileItem
               icon={<Phone size={20} color="#007BFF" />}
               label="Phone"
-              value={formatPhoneNumber(mockUser.phoneNumber)}
+              value={ formatPhoneNumber( mockUser.phoneNumber)}
             />
             <ProfileItem
               icon={<Mail size={20} color="#007BFF" />}
               label="Email"
-              value={mockUser.email}
+              value={` ${mockUser.email}`}
             />
           </div>
         </div>
 
         <div className="section">
-          <h3 className="section-title">Settings</h3>
-          <div className="card">
+          <h3 className="section-title1">Settings</h3>
+          <div className="card-item">
             <ProfileItem
               icon={<Bell size={20} color="#007BFF" />}
               label="Notifications"

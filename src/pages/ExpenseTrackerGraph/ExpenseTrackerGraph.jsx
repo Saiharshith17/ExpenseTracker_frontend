@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import "./ExpenseTrackerGraph.css"; // Import CSS for custom styles
-
+import Nav from "../../components/navbar";
 const ExpenseTrackerGraph = () => {
   const [value, setValue] = useState(0);
 
@@ -16,6 +16,7 @@ const ExpenseTrackerGraph = () => {
 
   return (
     <div className="graph-container">
+      {/* <Nav/> */}
       <CircularProgressbar
         value={value}
         text={`${value}%`}

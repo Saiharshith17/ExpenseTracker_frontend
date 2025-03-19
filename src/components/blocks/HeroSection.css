@@ -1,0 +1,123 @@
+/* src/components/blocks/HeroSection.css */
+.hero-section {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #030303;
+}
+
+.hero-background {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(75, 105, 255, 0.05), rgba(255, 83, 85, 0.05));
+    filter: blur(50px);
+}
+
+.elegant-shapes-container {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+}
+
+.elegant-shape {
+    position: absolute;
+}
+
+.shape-background {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: linear-gradient(to right, rgba(75, 105, 255, 0.15), transparent);
+    backdrop-filter: blur(2px);
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px rgba(255, 255, 255, 0.1);
+}
+
+.content {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.badge-container {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    margin-bottom: 24px;
+}
+
+.badge-icon {
+    height: 8px;
+    width: 8px;
+    fill: rgba(255, 83, 85, 0.8);
+}
+
+.badge-text {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: transparent;
+    background: linear-gradient(to bottom, white, rgba(255, 255, 255, 0.8));
+    background-clip: text;
+}
+
+.title-main {
+    display: block;
+    font-size: 48px;
+}
+
+.title-sub {
+    display: block;
+    font-size: 32px;
+    background: linear-gradient(to right, rgba(75, 105, 255, 0.8), rgba(255, 83, 85, 0.8));
+    background-clip: text;
+    color: transparent;
+}
+
+.description {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 32px;
+    line-height: 1.6;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(3, 3, 3, 0.8), transparent);
+    pointer-events: none;
+}
+ .link button{
+    font-size:20px;
+    text-decoration:none;
+    width:100%;
+}
+.link {
+    display: flex;
+    gap: 40px; /* Adjust spacing between buttons */
+   
+}
+
+.link1, .link2 {
+    flex: 1; /* Equal width for both */
+    text-align: center; /* Center the buttons */
+    background-color:#fff;
+    padding :10px 10px;
+    border-radius:20px;
+
+}
+ 

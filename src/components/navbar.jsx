@@ -5,8 +5,14 @@ import "./navbar.css"; // Import the CSS file
 function Nav() {
   return (
     <nav className="nav-container">
-      <span className="logo">Logo</span>
-      <span className="app-name">ExpenseTrackerApp</span>
+      <a href="/" className="logo">ExpenseTrackerApp</a>
+      <ul className="nav-links">
+        <li><a href="/Home">Home</a></li>
+        <li><a href="/Dashboard">Dashboard</a></li>
+        <li><a href="/Spends">Spends</a></li>
+        <li><a href="/ExpenseTrackerGraph">Analysis</a></li>
+        <li><a href="/Converter">Converter</a></li>
+      </ul>
       <Link to="/profile">
         <img
           className="profile-img"
