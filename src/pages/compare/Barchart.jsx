@@ -11,7 +11,6 @@ const BarChart = ({ data, labels }) => {
         }
 
 
-        
         const ctx = chartRef.current.getContext("2d");
         chartInstance.current = new Chart(ctx, {
             type: "bar",
